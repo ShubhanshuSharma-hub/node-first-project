@@ -1,5 +1,8 @@
-const _ = require('lodash')
-
-const items = [1, [2,[3,[4]]]]
-const newItem = _.flattenDeep(items)
-console.log(newItem)
+console.log('first task')
+console.time()
+for(let i = 0; i<10000000; i++){
+  const h3 = document.querySelector('h3')
+  h3.textContent = `Hey, Everyone Is Waiting On Me`
+}
+console.timeEnd()
+console.log('next task')
